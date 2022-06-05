@@ -17,25 +17,33 @@
 
 <body>
     <header>
-        <nav class="navbar navbar-dark fixed-top menu">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-              <a id="titulo" class="navbar-brand" href="index.html">BBDDSufragio</a>
-              <form class="d-flex">
-                <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Profes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Estudiantes</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Admin</a>
-                  </li>
-
-                <input id="buscar" class="form-control invisible me-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-light " id="boton" type="submit"><i class="bi bi-search "></i></button>
-              </form>
+                <a class="navbar-brand ms-3" href="index.html">BBDDSufragio</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="estudiantes.html">Estudiantes</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="docentes.html">Docentes</a>
+                        </li>
+                        <li class="nav-item mx-3">
+                            <a class="nav-link active" aria-current="page" href="admin.html">Admin</a>
+                        </li>
+                    </ul>
+                    <form class="d-flex">
+                        <input class="form-control me-2" type="search" placeholder="Buscar" aria-label="Search">
+                        <button class="btn btn-outline-light" type="submit">Buscar</button>
+                    </form>
+                </div>
             </div>
-          </nav>    </header>
+        </nav>        </header>
     <main>
         <div class="container">
             <video src="video/video-1.mp4" class="video w-100" controls muted autoplay></video>
@@ -119,7 +127,17 @@
 
                 </div>
             </div>
-        </div>
+              <hr>
+              <div class="card" style="width: 18rem;">
+                <div class="card-body">
+                  <h5 class="card-title">Ingresa al Sufragio</h5>
+                  <h6 class="card-subtitle mb-2 text-muted">Inscribete</h6>
+                  <p class="card-text">Para poderte inscribir en el colegio el Sufragio puedes ingresar con los siguientes enlaces;</p>
+                  <a href="registro.html" class="card-link">Como Estudiante</a>
+                  <a href="#" class="card-link">Como Profesor</a>
+                </div>
+              </div>
+              <hr>
     </section>
     <footer class="bg-dark p-5 text-white">
         <div class="container">
