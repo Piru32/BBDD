@@ -6,6 +6,10 @@ div.columna1, div.columna2 {
     border: 1.5px solid grey;
 }
 
+div.columna {
+    border: 1.5px solid grey;
+}
+
 div.columna1 {
     background-color: lightseagreen;
 }
@@ -13,7 +17,14 @@ div.columna1 {
 div.columna2 { 
     background-color: lightblue;
 }
-#boton{
+
+div.columna3 {
+    background-color: lightsalmon;
+}
+
+div.columna4 {
+    background-color: lightcoral;
+}#boton{
 
     color:rgb(0, 0, 0);
     border: 6px solid rgb(51, 215, 221);
